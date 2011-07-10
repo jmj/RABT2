@@ -16,6 +16,7 @@ public class Blastoff implements Runnable {
             System.out.format("%s: %d\n", Thread.currentThread().getName(),
                     count);
         }
+        System.out.format("%s: Blast Off!!\n", Thread.currentThread().getName());
         
     }
     
